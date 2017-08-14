@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pat's Salmon Cookies</title>
+    <link href= "main.css" rel="stylesheet" type="text/css">
+        
+</head>
+    <body>
+        <main>
+            <h1> Sales
+            </h1>
+        </main>
+        <table>
+            <thead>
+                
+                     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <td>&nbsp &nbsp</td><td>6AM</td> <td>7AM</td> 
+                     <td>8AM</td><td> 9AM</td><td>10AM</td>
+                    <td>11AM</td><td>12PM</td> <td>1PM</td><td>2PM</td><td>3PM</td>
+                    <td>4PM</td><td>5PM</td><td>6PM</td><td>7PM</td>
+                
+            </thead>
+                
+            <tbody id="main">
+            </tbody>
+             <a href= "home.html">Home Page</a>
+             <a href= "marketing.html">Marketing Page</a>
+        </table>
+            
+            
+        </body>
+        <p id="tt"></p>
+        
+        <form id="new_question" name= "new_question" action="" 
+           <fieldset>
+            <table> 
+            
+                <tr>
+              <td>  <label for="loc"> New Location</label>
+                <input type="text" name="loc" id="loc" placeholder="Location"></td>
+
+
+                <td><label for="min">Minimum Customers</label>
+                <input type="text" name="min" id="min" placeholder="Min. # of Customers"></td>
+
+               <td><label for="max">Maximum Customers</label>
+                <input type="text" name="max" id="max" placeholder="Max. # of Customers"></td>
+
+                <td><label for="avg">Avg. Sales of Cookies</label>
+                <input type="text" name="avg" id="avg" placeholder="Avg. Cookie Sale"></td>
+
+                </tr>
+                   
+            </table>
+             <button id="submitBtn">Submit Answers</button>
+            
+                </fieldset>                             
+        </form>
+        <script src="app1.js"></script>
+        
+
+<script>
+    // document.getElementById("submitBtn").addEventListener("click", function(){
+    // alert("Hello World!");
+//  });
+  document.getElementById("submitBtn").addEventListener("click",submitAnswer,false);
+</script>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
